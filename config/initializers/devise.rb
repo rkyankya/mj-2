@@ -1,0 +1,3 @@
+# frozen_string_literal: true
+
+Devise.secret_key = 'fa95e4c27ae89cb03276d948c79325b7a39b9c594c0005fbadab6a109b0c7ccebf34e18354519d1387dec50d071d51373fdf'

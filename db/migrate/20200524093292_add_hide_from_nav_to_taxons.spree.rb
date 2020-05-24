@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This migration comes from spree (originally 20200212144523)
 class AddHideFromNavToTaxons < ActiveRecord::Migration[6.0]
   def change

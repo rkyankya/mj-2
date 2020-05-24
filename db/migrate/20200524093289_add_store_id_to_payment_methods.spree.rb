@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This migration comes from spree (originally 20191005121504)
 class AddStoreIdToPaymentMethods < ActiveRecord::Migration[5.2]
   def change
