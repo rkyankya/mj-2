@@ -34,6 +34,7 @@ gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us'
 gem 'spree_gateway', '~> 3.7'
 gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
 
+gem 'aws-sdk-s3'
 gem 'better_errors'
 gem 'hirb'
 
@@ -65,6 +66,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
