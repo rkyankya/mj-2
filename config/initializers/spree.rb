@@ -29,3 +29,15 @@ Spree.dependencies do |dependencies|
 end
 
 Spree.user_class = 'Spree::User'
+
+Spree.config do |config|
+  config.admin_show_version = false
+end
+
+Spree.config do |config|
+  config.logo = 'mj.png'
+end
+
+Spree.config do |config|
+  config.admin_interface_logo = 'mj.png'
+end

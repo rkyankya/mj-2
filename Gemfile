@@ -35,6 +35,7 @@ gem 'spree_gateway', '~> 3.7'
 gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
 
 gem 'hirb'
+gem 'better_errors'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
