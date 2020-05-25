@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # This migration comes from spree_multi_vendor (originally 20200416030721)
 
 # Based on issue https://github.com/spree-contrib/spree_multi_vendor/issues/104
